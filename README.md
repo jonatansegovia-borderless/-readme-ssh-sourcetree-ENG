@@ -5,13 +5,15 @@
 ```shell
 clone this repository to your computer and then inside readme page, you should use this command
 
+open up with VSCODE
+
 ctrl + shift + v
 
 ```
 
 ## GENERATING AN SSH IN GitHub:
 
-1- Follow the steps listed in GitHub for connecting the SSH key to your local https://docs.github.com/en/authentication/connecting-to-github-with-ssh
+1- Follow the steps to set up SSH authentication for github https://docs.github.com/en/authentication/connecting-to-github-with-ssh
 
 ## VINCULATION WITH SOURCETREE:
 
@@ -27,7 +29,7 @@ ctrl + shift + v
 
   ![](./img/8.png)
 
-* 2.4 - The following poster will appear, and we select 'no'
+* 2.4 - The following popup will appear, and give it 'no'
 
   ![](./img/9.png)
 
@@ -45,23 +47,23 @@ ctrl + shift + v
 
   ![](./img/12.png)
 
-- 3.3 - The following poster will appear, and we select 'Yes'.
+- 3.3 - The following popup will appear, and give it 'Yes'.
 
   ![](./img/13.png)
 
-- 3.4 - We are asked if we have a generated SSH, we give it no because the extension of our SSH will not be recognized by putty, which is the program that will convert our key to .ppk to works.
+- 3.4 - Select NO when asked about loading a SSH key. Source tree uses Putty auth agent for managing the private keys and needs them to be converted to a different format before loading them (instructions in the next section).
 
   ![](./img/14.png)
 
 ## Putty
 
-4 - Putty allows us to modify the extension for our SSH key. Inside ST we access in this way.
+4 - Putty allows us to convert SSH keys to the format it supports. Inside ST we access in this way.
 
 - 4.1 - In ST searchbar: Tools / Create or Import.
 
   ![](./img/16.png)
 
-- 4.2 - The following poster will appear, and we select 'Load'.
+- 4.2 - The following popup will appear, and give it 'Load'.
 
   ![](./img/17.png)
 
@@ -73,7 +75,7 @@ ctrl + shift + v
 
   ![](./img/22.png)
 
-- 4.5 - This will automatically make a process of converting our key to .ppk. The following poster will appear, and we select 'Accept'.
+- 4.5 - This will automatically make a process of converting our key to .ppk. The following popup will appear, and give it 'Accept'.
 
   ![](./img/23.png)
 
@@ -100,7 +102,7 @@ ctrl + shift + v
 
   ![](./img/29.png)
 
-- 5.3 - This will cause SSH and ST to be related.
+- 5.3 - This will load our private key into putty authentication agent.
 
 ## CLONING THE PROJECT
 
@@ -117,7 +119,7 @@ ctrl + shift + v
 
   ![](./img/31.png)
 
-- 6.3 - 'Recurse submodules' must be chosen.
+- 6.3 - check 'Recurse submodules' must be chosen.
 
   ![](./img/32.png)
 
