@@ -29,7 +29,7 @@ ctrl + shift + v
 
   ![](./img/8.png)
 
-* 2.4 - The following popup will appear, and give it 'no'
+* 2.4 - The following popup will appear, and select 'no'
 
   ![](./img/9.png)
 
@@ -47,7 +47,7 @@ ctrl + shift + v
 
   ![](./img/12.png)
 
-- 3.3 - The following popup will appear, and give it 'Yes'.
+- 3.3 - The following popup will appear, and select 'Yes'.
 
   ![](./img/13.png)
 
@@ -63,7 +63,7 @@ ctrl + shift + v
 
   ![](./img/16.png)
 
-- 4.2 - The following popup will appear, and give it 'Load'.
+- 4.2 - The following popup will appear, and select 'Load'.
 
   ![](./img/17.png)
 
@@ -75,7 +75,7 @@ ctrl + shift + v
 
   ![](./img/22.png)
 
-- 4.5 - This will automatically make a process of converting our key to .ppk. The following popup will appear, and give it 'Accept'.
+- 4.5 - This will automatically make a process of converting our key to .ppk. The following popup will appear, and select 'Accept'.
 
   ![](./img/23.png)
 
