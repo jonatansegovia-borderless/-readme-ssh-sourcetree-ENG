@@ -126,4 +126,23 @@ ctrl + shift + v
 - 6.4 - Hit 'Clone'. After that, We should be allowed to work with the project.
 
   ![](./img/34.png)
+
 ## INSIDE THE PROJECT
+
+7 - Now in VScode, we can see the files of our project. The submodules are in blue.
+
+![](./img/40.png)
+
+- 7.1 - ST allows seeing these submodules in a separated folder. If you click on this submodules option, you will be allowed to see all of them here.
+
+  ![](./img/41.png)
+
+  ![](./img/42.png)
+
+- 7.2 - When you make a change and save them, you can see a new mark inside this submodules folder in ST. Click in the submodule folder you made the change and a new tab will open.
+
+  ![](./img/43.png)
+
+- 7.3 - In this new tab, you can see the changes, add them to the project, delete and commit them.
+
+  ![](./img/44.png)
