@@ -126,3 +126,4 @@ ctrl + shift + v
 - 6.4 - Hit 'Clone'. After that, We should be allowed to work with the project.
 
   ![](./img/34.png)
+## INSIDE THE PROJECT
